@@ -1,0 +1,43 @@
+.homeContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f2f2f2; */
+  background-image: linear-gradient(rgb(106, 106, 248), #f2f2f2);
+}
+.homeMainContent {
+  border: 1px solid rgba(51, 51, 51, 0.678);
+  width: 15vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+}
+
+.logoImg {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.cepInput {
+  font-size: 17px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.377);
+  margin: 20px;
+}
+
+.searchBttn {
+  color: #f2f2f2;
+  background-color: rgb(12, 122, 247);
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 777;
+  padding: 8px 20px;
+}
